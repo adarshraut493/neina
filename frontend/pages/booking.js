@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 
-import '../styles/globals.css';
 export default function BookingPage() {
     const [bookings, setBookings] = useState([]);
 
