@@ -1,5 +1,4 @@
 import { useRouter } from 'next/router';
-import '../styles/globals.css';
 export default function ConfirmationPage() {
     const router = useRouter();
     const { name, date, time, guests } = router.query;
